@@ -1,0 +1,44 @@
+footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+position: fixed;
+height: 40px;
+background-color: #999999;
+}
+
+iframe {
+  margin-left: 16%;
+  margin-top: 60px;
+}
+footer a{
+color: #222;
+}
+ul {
+list-style: none; /* enlever les puces */
+margin: 0; /* enlever les marges automatiques */
+}
+
+ul li {
+display: table-cell; /* affichage en ligne */
+
+}
+footer a:hover{
+color: #ffffff;
+text-decoration: none;
+}
+.social:hover {
+-webkit-transform: scale(1.0);
+-webkit-transition-duration: 0.5s;
+}
+.social {
+-webkit-transform: scale(0.8);
+color: #222;
+
+}
+.barre_recherche{
+margin-top:20px;
+  margin-left: 30%;
+}
+
+body{background-color: #d5dbdb ;}
